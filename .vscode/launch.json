@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:HustleCapture}",
+      "name": "Debug HustleCapture",
+      "program": "${workspaceFolder:HustleCapture}/.build/debug/HustleCapture",
+      "preLaunchTask": "swift: Build Debug HustleCapture"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:HustleCapture}",
+      "name": "Release HustleCapture",
+      "program": "${workspaceFolder:HustleCapture}/.build/release/HustleCapture",
+      "preLaunchTask": "swift: Build Release HustleCapture"
+    }
+  ]
+}
